@@ -69,7 +69,7 @@ while True:
         elif player1 == 85:
             player1 = 94
             print("Pirmais spēlētajs no 85 pozīcijas uziet uz augšu līdz 94")
-        print("Pirmais spēlētājs pagāja uz priekšu pa", dice, ", spēlētājs 1 atrodas pozīcijā", player1)# - Tiek printēta spēlētāja gājiens un pozīcija
+        print("Pirmais spēlētājs pagāja uz priekšu pa", dice, ", pirmais spēlētājs atrodas pozīcijā", player1)# - Tiek printēta spēlētāja gājiens un pozīcija
         print(" ")# - Print šeit ir domāts, lai teksts nebūtu "pilipis" cits pie cita
         if player1 >= 100:# - Ja spēlētājs tiek līdz 100 vai lielākam skaitlim tad tas automātiski uzvar
             print("Pirmais spēlētajs ir UZVARĒJIS!!!")
@@ -102,7 +102,7 @@ while True:
         elif player2 == 85:
             player2 = 94
             print("Otrais spēlētajs no 85 pozīcijas uziet uz augšu līdz 94")
-        print("Otrais spēlētājs pagāja uz priekšu pa", dice, ", spēlētājs 1 atrodas pozīcijā", player2)# - Tiek printēta spēlētāja gājiens un pozīcija
+        print("Otrais spēlētājs pagāja uz priekšu pa", dice, ",otrais spēlētājs atrodas pozīcijā", player2)# - Tiek printēta spēlētāja gājiens un pozīcija
         if player2 >= 100:# - Ja spēlētājs tiek līdz 100 vai lielākam skaitlim tad tas automātiski uzvar
             print("Otrais spēlētajs ir UZVARĒJIS!!!")
             break
